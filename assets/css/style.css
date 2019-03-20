@@ -1,0 +1,310 @@
+header{
+    background-color: #ffffff;
+    position: absolute;
+    left: -15px;
+    top: 0px;
+    width: 102%;
+    height: 107px;
+    border-bottom: 4px solid #cccccc;
+}
+
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.backg{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+
+}
+
+.name{
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 2px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 35px;
+    width: auto;
+}
+
+ul{
+    list-style-type: none;
+    position: relative;
+    top: -70px;
+}
+
+.nav{
+    text-align: right;
+    color: #cccccc;
+    width: auto;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding-left: 1em;
+    margin-left: 1em;
+    border-left: 1px solid #cccccc;
+}
+
+html{
+    background-color: #cccccc;
+    display: inline-block;
+}
+
+.mainbg{
+    display: inline-block;
+    width: 840px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
+}
+
+.mainct{
+    position: absolute;
+    top: 160px;
+    left: 480px;
+    width: 840px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+    border: 0px;
+    border-bottom: 3px solid #dddddd;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 12.8px;
+    width: 100%;
+    padding: 35px;
+    background-color: #777777;
+    color: #cccccc;
+    border-top: 7px solid #4aaaa5;
+}
+
+img{
+    float: left;
+    padding: 0px 20px 20px 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#Submit{
+    width: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+}
+
+.textbar #Name{
+    width: 87%;
+    height: 30px;
+    border: 1px solid #cccccc;
+}
+
+.textbar #Email{
+    width: 87%;
+    height: 30px;
+    border: 1px solid #cccccc;
+}
+
+.textbar #Message{
+    width: 87%;
+}
+
+label{
+    color: #cccccc;
+}
+
+.box1{
+    position: relative;
+    height: 60px;
+    width: 120%;
+}
+
+.text1{
+    position: absolute;
+    top: 7px;
+    left: 55px;
+    font-size: 110%;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bgbox{
+    background-color: #4aaaa5;
+    position: absolute;
+    height: 35px;
+    width: 187px;
+    position: relative;
+    bottom: -100px;
+}
+
+.box2{
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+.text2{
+    position: absolute;
+    top: 7px;
+    left: 55px;
+    font-size: 110%;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bgbox2{
+    background-color: #4aaaa5;
+    position: absolute;
+    height: 35px;
+    width: 187px;
+    left: 207px;
+    top: 100px;
+}
+
+.box3{
+    position: relative;
+    top: 110px;
+    left: -415px;
+    
+}
+
+.bgbox3{
+    background-color: #4aaaa5;
+    position: absolute;
+    height: 35px;
+    width: 187px;
+    top: 100px;
+    left: 414px;
+}
+
+.text3{
+    position: absolute;
+    top: 7px;
+    left: 49px;
+    font-size: 110%;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box4{
+    position: relative;
+    top: 110px;
+    left: -393px;
+}
+
+.bgbox4{
+    background-color: #4aaaa5;
+    position: absolute;
+    height: 35px;
+    width: 187px;
+    top: 100px;
+    left: 621px;
+}
+
+.text4{
+    position: absolute;
+    top: 7px;
+    left: 16px;
+    font-size: 110%;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box5{
+    position: relative;
+    top: 121px;
+    left: -1px;
+}
+
+.bgbox5{
+    background-color: #4aaaa5;
+    position: absolute;
+    height: 35px;
+    width: 187px;
+    top: 260px;
+    left: 0px;
+}
+
+.text5{
+    position: absolute;
+    top: 7px;
+    left: 16px;
+    font-size: 110%;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainct1{
+    position: absolute;
+    top: 160px;
+    left: 480px;
+    width: 840px;
+    height: 578px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+@media screen and (max-width: 980px) {
+    .mainct {
+        width: 60%;
+    }
+    .mainct1 {
+        width: 60%;
+    }
+    .name {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .mainct {
+        width: 100%;
+    }
+    .mainct1 {
+        width: 100%;
+    }
+    .name {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .mainct {
+        width: 70%;
+    }
+    .mainct1 {
+        width: 70%;
+    }
+    .name {
+        width: 100%;
+    }
+    .nav {
+        width: 60%;
+    }
+}
+
